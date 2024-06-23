@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> 
+  <script src="https://www.google.com/books/jsapi.js"></script>
+ 
+</head>
+<body>
+  <div class="mt-5 ms-5 pb-3 ps-3 pt-3 bg-dark border-4 border-black bg-indigo-500" style="max-width: 20rem;">
+    <h1 class="p-10 text-2xl place-items-center px-0.5">Book Library</h1>
+    <input type="text" class="border-4 border-gray-900 title" id="searchInput" placeholder="Enter a book title">
+    <button id="searchButton" class="border-t border btn-primary">Search</button>
+    <p></p>
+  </div>
+  
+  <div id="resultsContainer" class="float-end me-5"></div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
